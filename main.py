@@ -19,7 +19,7 @@ PARAMS = {'keyfile': 'cert/client.key',
 
 wlan = WLAN(mode=WLAN.STA)
 #wlan.antenna(WLAN.EXT_ANT)
-wlan.connect("BELL094", auth=(WLAN.WPA2, "14FADA65171E"), timeout=30000)
+wlan.connect("XXXXXXXXX", auth=(WLAN.WPA2, "XXXXXXXXXX"), timeout=30000)
 
 while not wlan.isconnected(): 
      machine.idle()
